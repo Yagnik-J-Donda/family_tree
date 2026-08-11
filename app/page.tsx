@@ -251,6 +251,8 @@ export default function Home() {
         <span>— Michael J. Fox</span>
       </section>
 
+      <footer className="site-credit">Built by <a href="https://yagnik-j-donda.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Yagnik Donda</a></footer>
+
       {showForm && (
         <div className="modal-backdrop" onMouseDown={() => setShowForm(false)}>
           <div className="modal" onMouseDown={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-labelledby="add-title">
